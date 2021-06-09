@@ -1,0 +1,92 @@
+h1 { color: #233E8B; font-family: Gagalin; }
+
+body {text-align: center; font-family : "Gagalin" ;}
+h4,ol,ul {text-align: left; font-family : "Gagalin"}
+
+.span-rouge {color: #962E2D;}
+
+.span-marine {color: #233E8B;}
+
+.background { background : #BFE2F5; }
+
+.frame {
+	border : 2px solid black;
+	margin : 80 150px 10px;
+	padding : 1px 4px;
+	}
+
+
+.drapeau {
+	background: grey;
+	height: 40px;
+	width: 75px;
+	display: flex; 
+	justify-content: center;
+	justify-content: space-between;
+	align-items: center;
+
+	}
+
+.blue {
+	background: blue;
+	height: 40px;
+	width: 25px;
+
+	}
+
+
+.white {
+	background: white;
+	height: 40px;
+	width: 25px;
+
+	}
+
+.red {
+	background: red;
+	height: 40px;
+	width: 25px;
+
+	}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #962E2D 
+	}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	color: #FDDF6B
+	}
+
+.items {
+	margin: 10px 30px
+	}
+
+.aligner {
+	margin-left: 50px; margin-right: 300px
+	}
+
+.aligner2 
+{
+	margin-left: 350px; margin-right: 50px
+	}
+
+.separation {
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	justify-content: space-around;
+
+	}
+
+.frame2 {
+	border : 2px solid #962E2D;
+	padding : 5px 5px;
+	background: #962E2D 
+	}
+	
+
