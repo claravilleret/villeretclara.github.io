@@ -1,20 +1,20 @@
-h1 { color: #233E8B; font-family: Gagalin; }
+h1 { color: #233E8B; font-family: 'Do Hyeon', sans-serif;
+font-family: 'Lobster', cursive; }
 
-body {text-align: center; font-family : "Gagalin" ;}
-h4,ol,ul {text-align: left; font-family : "Gagalin"}
+body {text-align: center; font-family : 'Oswald', sans-serif;}
+h4,ol,ul {text-align: left;}
+
+h2 { font-size: 24px; font-family: 'Do Hyeon', sans-serif;
+font-family: 'Lobster', cursive; }
+
+h3 {font-size: 27px; font-family: 'Do Hyeon', sans-serif;
+font-family: 'Lobster', cursive; }
 
 .span-rouge {color: #962E2D;}
 
 .span-marine {color: #233E8B;}
 
 .background { background : #BFE2F5; }
-
-.frame {
-	border : 2px solid black;
-	margin : 80 150px 10px;
-	padding : 1px 4px;
-	}
-
 
 .drapeau {
 	background: grey;
@@ -24,7 +24,6 @@ h4,ol,ul {text-align: left; font-family : "Gagalin"}
 	justify-content: center;
 	justify-content: space-between;
 	align-items: center;
-
 	}
 
 .blue {
@@ -49,7 +48,7 @@ h4,ol,ul {text-align: left; font-family : "Gagalin"}
 
 	}
 
-.navbar {
+.my-navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -86,7 +85,31 @@ h4,ol,ul {text-align: left; font-family : "Gagalin"}
 .frame2 {
 	border : 2px solid #962E2D;
 	padding : 5px 5px;
-	background: #962E2D 
+	background: #962E2D;
+ 	box-shadow: 5px 5px 10px grey;
+ 	border-radius: 5px;
 	}
-	
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 35px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #962E2D;
+  transition: background 0.3s ease;
+}
 
